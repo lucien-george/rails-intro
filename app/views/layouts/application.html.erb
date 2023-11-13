@@ -11,6 +11,11 @@
   </head>
 
   <body>
+    <%= link_to("Home", root_path, class: "your-class") %>
+    <%= link_to "Contact", contact_path %>
+    <%= link_to "About", about_path %>
+    <%= link_to "Profile", profile_path %>
     <%= yield %>
+    <p>footer</p>
   </body>
 </html>
